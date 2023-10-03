@@ -1,5 +1,23 @@
 @charset "utf-8";
 
-body {
+header {
   background: pink;
+}
+img {
+  vertical-align: bottom;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  width: calc(100% -32px -32px);
+  box-sizing: border-box;
 }
